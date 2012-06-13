@@ -1,0 +1,119 @@
+/* @group $CONTENTS
+    SHARED
+    CLEARFIX
+    MAIN
+    TYPE
+    BRANDING
+/* @end */
+
+
+/* @group $SHARED */
+    h1,h2,h3,h4,h5,h6,
+    .alpha,.beta,.gamma,.delta,.epsilon,.zeta,
+    ul,ol,dl,
+    fieldset,
+    p,
+    table,
+    pre,
+    hr,
+    .branding,
+    img {
+        margin-top: 0;
+        margin-bottom: 24px;
+        margin-bottom: 1.5rem;
+    }
+/* @end */
+
+
+/* @group $CLEARFIX */
+    /* http://nicolasgallagher.com/micro-clearfix-hack/ */
+    /* For modern browsers */
+    .cf:before,
+    .cf:after {
+        content:"";
+        display:table;
+    }
+
+    .cf:after {
+        clear:both;
+    }
+
+    /* For IE 6/7 (trigger hasLayout) */
+    .cf {
+        *zoom:1;
+    }
+/* @end */
+
+
+/* @group $MAIN */
+    html {
+        overflow-y: scroll;
+    }
+    body {
+        overflow: hidden;
+    }
+    .wrapper {
+        overflow: hidden;
+    }
+/* @end */
+
+
+/* @group $TYPE */
+    html {
+        -webkit-font-smoothing: antialiased;
+        font-family: Arial, sans-serif;
+        font-size: 16px;    /* 16px */
+        line-height: 1;   /* 24px */
+    }
+    .hN {        
+        color: #3a3a3a;
+        font-weight: normal;    
+    }
+    h1, .alpha {
+        font-size: 48px;
+        font-size: 3rem;    /* 48px */
+        line-height: 1;     /* 48px */
+    }
+    h2, .beta {
+        font-size: 32px;
+        font-size: 2rem;    /* 32px */
+        line-height: 1.5;   /* 48px */
+    }
+    h3, .gamma {
+        font-size: 24px;
+        font-size: 1.5rem;  /* 24px */
+        line-height: 1;     /* 24px */
+    }
+    h4, .delta {
+        font-size: 20px;
+        font-size: 1.25rem; /* 20px */
+        line-height: 1.2;   /* 24px */
+    }
+    h5, .epsilon {
+        font-size: 24px;
+        font-size: 1.125rem;/* 18px */
+        line-height: 1.333; /* 24px */
+    }
+    h6, .epsilon {
+        font-size: 24px;
+        font-size: 1.125rem;/* 18px */
+        line-height: 1.333; /* 24px */
+    }
+
+    /* @group $LINKS */
+    a:active,
+    a:link,
+    a:visited {
+        color: #333;
+        text-decoration: none;
+    }
+    a:hover,
+    a:focus {
+        text-decoration: underline;
+    }
+    /* @end */
+/* @end */
+
+
+/* @group $BRANDING */
+/* @end */
